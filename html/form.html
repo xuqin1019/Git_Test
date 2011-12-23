@@ -1,0 +1,44 @@
+</html>
+<head>
+	<script language="javascript" type="text/javascript" src="../js/validation.js">
+	</script>
+    <style type="text/css">
+		
+		body {
+			color:#000;
+			background-color: #FFF;
+		}
+		
+		input.invalid {
+			background-color:#FF9;
+			border:2px red inset;
+		}
+		
+		label.invalid {
+			color:#F00;	
+		}
+		
+		
+	</style>
+<head>
+<body>
+<form id="form1" name="form1" method="post" action="#">
+  <p>
+    <label for="name">姓名:
+    <input type="text" id="userName" class="reqd"/>
+    </label>
+  </p>
+  <p><label for="passwd1">密码:
+    <input type="text" id="passwd1"  class="reqd"/>
+    </label>
+  &nbsp;</p>
+  <p>
+    <label for="passwd2">确认:
+    <input type="text" id="passwd2" class="reqd passwd1"/>
+    </label>
+    &nbsp;</p>
+  <p>&nbsp;</p>
+  <input type="submit" value="Submit"/>&nbsp;<input type="reset"/>
+</form>
+</body>
+</html>
